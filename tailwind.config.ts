@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1777926071890173190.html"
 	],
 	prefix: "",
 	theme: {
@@ -18,6 +19,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				display: ['Oswald', 'sans-serif'],
+				body: ['IBM Plex Sans', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -88,7 +93,21 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'marquee': 'marquee 20s linear infinite',
+				'fade-in': 'fadeIn 0.7s ease forwards',
+			},
+			keyframes: {
+				...{
+					marquee: {
+						from: { transform: 'translateX(0)' },
+						to: { transform: 'translateX(-50%)' },
+					},
+					fadeIn: {
+						from: { opacity: '0', transform: 'translateY(16px)' },
+						to: { opacity: '1', transform: 'translateY(0)' },
+					},
+				}
 			}
 		}
 	},
