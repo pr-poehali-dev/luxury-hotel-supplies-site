@@ -2,7 +2,7 @@ import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
 const IMG_HERO = "https://cdn.poehali.dev/projects/0e6125a2-855b-4232-beab-eddb67c1c4fd/files/25101bc3-6aa1-4e15-b437-07ecaebf1c68.jpg";
-const IMG_TEXTILE = "https://cdn.poehali.dev/projects/0e6125a2-855b-4232-beab-eddb67c1c4fd/files/8980f003-5b63-4b8d-bb0a-5ffb824e66b0.jpg";
+const IMG_TEXTILE = "https://cdn.poehali.dev/projects/0e6125a2-855b-4232-beab-eddb67c1c4fd/files/bedc31c4-8011-4fec-9ca4-df7764b3d3e5.jpg";
 const IMG_FURNITURE = "https://cdn.poehali.dev/projects/0e6125a2-855b-4232-beab-eddb67c1c4fd/files/32c141b7-b58a-44c7-a9bd-0261e55a5cf7.jpg";
 const IMG_COSMETICS = "https://cdn.poehali.dev/projects/0e6125a2-855b-4232-beab-eddb67c1c4fd/files/d6053f1e-7e54-4ba0-abfa-d55c282fb2e5.jpg";
 const IMG_TURNKEY = "https://cdn.poehali.dev/projects/0e6125a2-855b-4232-beab-eddb67c1c4fd/files/25101bc3-6aa1-4e15-b437-07ecaebf1c68.jpg";
